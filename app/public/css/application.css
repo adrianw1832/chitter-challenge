@@ -114,14 +114,10 @@ form {
   text-align: left;
 }
 
-  form p {
-    margin: 10px 0;
-  }
-
   form input[type="text"], form input[type="password"] {
     display: block;
     border: 2px solid black;
     font-size: 18px;
-    width: 3000px;
+    width: 250px;
     margin: 5px;
   }

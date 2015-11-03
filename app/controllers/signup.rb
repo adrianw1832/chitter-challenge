@@ -20,7 +20,7 @@ module Chitter
           name: params[:name], user_name: params[:user_name])
         if @user.save
           session[:user_id] = @user.id
-          redirect '/'
+          redirect('/')
         else
           flash.now[:errors] = @user.errors.full_messages
           erb :'users/new'
