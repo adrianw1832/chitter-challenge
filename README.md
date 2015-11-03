@@ -1,11 +1,31 @@
-Chitter Challenge
-=================
+##Chitter Challenge
 [![Build Status](https://travis-ci.org/adrianw1832/chitter-challenge.svg?branch=master)](https://travis-ci.org/adrianw1832/chitter-challenge)
 
-How I approached it:
---------------------
+This project is from the week 4 weekend challenge of the Makers Academy course.
+This challenge was very much based on the bookmark manager that we did during
+the week. It solidified my understanding of associations between models and how
+to display the correct things in the views.
 
-*This weekend challenge was very much based on the bookmark manager that we did during the week. In order to run the program properly, two databases, chitter_development and chitter_test has to be created via psql first.
+##Challenges
+
+I don't think the logic and web setup was that difficult at all, since it was
+very much similar to what we did during the week. The bit that consumed the most
+time was the CSS. It was my first serious attempt at doing some CSS and learning
+the box model.
+
+##Technologies used
+
+Ruby, Sinatra, HTML, CSS, PostgreSQL
+
+RSpec, Capybara
+
+
+##How to install
+
+Clone the repo and set up the databases, chitter_development and chitter_test.
+Run rackup and then visit localhost:9292 to run the app.
+
+Run rspec to run the test in the terminal.
 
 Time:
 ------------
